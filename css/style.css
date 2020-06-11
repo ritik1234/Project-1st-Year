@@ -1,0 +1,105 @@
+body{
+    background-image: url("/pankaj-patel-eygpU6KfOBk-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    margin:0px;
+    padding:0px;   
+}
+.responsive {
+    max-width: 100%;
+    height: auto;
+  }
+  *{
+      box-sizing:border-box;
+  }
+  @media(max-width:768px){
+      header nav img{
+          display: none;
+      }
+      hr{
+        background-color:white;
+    }
+  }
+  body header nav img{
+      margin-left:10px;
+      width:150px;
+      height:150px;
+    }
+    header nav{
+        background:url("/headerbackground3") no-repeat;
+        background-size: cover;
+        }
+.navbar-brand h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    color:gainsboro;
+    font-family:'Times New Roman', Times, serif;
+    text-shadow:1px 2px 2px;
+}
+.navbar-brand span{
+    color:plum;
+    font-family: 'Pacifico', cursive;
+}
+.navbar-nav a{
+    font-weight: bold;
+    margin-left: 30px;
+}
+.navbar-nav a:hover{
+    background-color:skyblue;
+     border-radius:5px;
+}
+.btn{
+    color:#000;
+}
+nav{
+    border-radius:10px;
+}
+.jumbotron{
+    background:url("/jumbotron.jpg") repeat-y;
+    height:100%;
+    background-size: cover;
+    box-shadow:1px 3px 3px 3px thistle;
+    margin-bottom:0px;
+ }
+ .panel-footer{
+     background-color:#000;
+     color:whitesmoke;
+     text-align:center;
+     padding-top:10px;
+ }
+ #italic{
+     font-style: italic;
+     color:orange;
+     border:5px; 
+     box-sizing:border-box;
+     border-radius:10px;
+ }
+ .instagram img{
+     background-color: white;
+     width:30px;
+     height:30px;
+     margin-right:5px;
+ }
+ .facebook img{
+    background-color: white;
+    width:30px;
+    height:30px;
+    margin-right:5px;
+}  
+.content{
+    background:url("/content2.jpg") no-repeat;
+    background-size: cover;
+    border:5px black;
+    box-shadow: 3px 3px 3px 2px whitesmoke;
+    width:100%;
+    padding:10px;
+    margin-top:20px;
+    margin-bottom:20px;
+}  
+.photo li img{
+    width:180px;
+    height:130px;
+}
