@@ -1,6 +1,6 @@
 
 body{
-    background-image: url("images/pankaj-patel-eygpU6KfOBk-unsplash.jpg");
+    /* background-image: url("/images/pankaj-patel-eygpU6KfOBk-unsplash.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
@@ -32,7 +32,7 @@ body{
     }
     
   header nav{
-        background:url("images/headerbacground3.jpg") no-repeat;
+        background:url("/images/headerbackground3.jpg") no-repeat;
         background-size: cover;
         }
 .navbar-brand h1{
@@ -61,7 +61,7 @@ nav{
     border-radius:10px;
 }
 .jumbotron{
-    background:url("images/jumbotron.jpg") repeat-y;
+    background:url("/images/jumbotron.jpg") repeat-y;
     height:100%;
     background-size: cover;
     box-shadow:1px 3px 3px 3px thistle;
@@ -93,7 +93,7 @@ nav{
     margin-right:5px;
 }  
 .content{
-    background:url("images/content2.jpg") no-repeat;
+    background:url("/images/content2.jpg") no-repeat;
     background-size: cover;
     border:5px black;
     box-shadow: 3px 3px 3px 2px whitesmoke;
@@ -116,3 +116,7 @@ li{
     margin:10px auto 10px auto;
 }
 
+.dp{
+    height:85px;
+    width:20px;
+}
