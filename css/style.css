@@ -71,6 +71,7 @@ nav{
      background-color:#000;
      color:whitesmoke;
      text-align:center;
+     margin-top:50px;
      padding-top:10px;
  }
  #italic{
@@ -85,12 +86,14 @@ nav{
      width:30px;
      height:30px;
      margin-right:5px;
+     margin-top:5px;
  }
  .facebook img{
     background-color: white;
     width:30px;
     height:30px;
     margin-right:5px;
+    margin-top:5px;
 }  
 .content{
     /* background:url("/images/content2.jpg") no-repeat; */
